@@ -282,7 +282,7 @@ msgstr "Error"
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "No se pudo remover la versión anterior de {0}"
+msgstr "No se pudo eliminar la versión anterior de {0}"
 
 #: Base.java:2203
 #, java-format
@@ -537,7 +537,7 @@ msgstr "Verificar / Compilar"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr "Importar Librearía..."
+msgstr "Importar Librería..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
@@ -569,7 +569,7 @@ msgstr "Programador"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "Quemar Secuencia de Inicio"
+msgstr "Quemar Gestor de Arranque"
 
 #: Editor.java:923
 msgid "serialMenu is null"
@@ -828,7 +828,7 @@ msgstr "Guardar cambios antes de exportar?"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr "Exportación cancelada, primero se deben guardados los cambios."
+msgstr "Exportación cancelada, primero se deben guardar los cambios."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
@@ -837,11 +837,11 @@ msgstr "Quemando secuencia de inicio a la Tarjeta I/O (Esto puede tomar un \n"
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr "Finalizada la quema de secuencia de inicio."
+msgstr "Finalizada la subida del Gestor de Arranque."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "Error al quemar la secuencia de inicio."
+msgstr "Error al subir el Gestor de Arranque."
 
 #: Editor.java:2500
 msgid "Printing..."
@@ -1229,7 +1229,7 @@ msgstr "No se puedo renombrar el skecth. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
-msgstr "createNewFile() retorno falso"
+msgstr "createNewFile() retornó falso"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
@@ -1298,7 +1298,9 @@ msgstr "Que tan Borges de tu parte"
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
-msgstr ""
+msgstr 
+"No se puede guardar el sketch en la carpeta\n"
+"dentro de si mismo. Esto continuaría por siempre."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
@@ -1328,7 +1330,10 @@ msgid ""
 "This file has already been copied to the\n"
 "location from which where you're trying to add it.\n"
 "I ain't not doin nuthin'."
-msgstr ""
+msgstr 
+"Este archivo ya ha sido compiado en la\n"
+"localización a la que estás intentando añadirlo."
+"No estoy haciendo nada."
 
 #: Sketch.java:1093
 #, java-format
@@ -1337,7 +1342,7 @@ msgstr "No se pudo agregar ''{0}'' al sketch."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr ""
+msgstr "Carpeta de compilación desaparecida o no puede ser escrita"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
@@ -1351,7 +1356,7 @@ msgstr "Excepción no atrapada de tipo: {0}"
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr ""
+msgstr "Hay un problema al mover {0} a la carpeta de compilación"
 
 #: Sketch.java:1661
 msgid "Uploading..."
@@ -1404,7 +1409,10 @@ msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
-msgstr ""
+msgstr 
+"El nombre del sketch ha sido modificado. Los nombres de los sketches sólo pueden tener"
+"caracteres ASCII y números (pero no pueden empezar por un número).\n"
+"También deben tener de menos de 64 caracteres."
 
 #: SketchCode.java:83
 #, java-format
@@ -1418,7 +1426,11 @@ msgid ""
 "older version of Processing,you may need to use Tools -> Fix Encoding & "
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
-msgstr ""
+msgstr 
+"\"{0}\" contiene caracteres no reconocidos. Si este código fue creado con"
+"una versión anterior de Processing debes utilizar Herramientas -> Reparar codificación y"
+"recargar para actualizar el sketch y utilizar codificación UTF-8. Si no será"
+"necesario borrar los caracteres erróneos para deshacerse de esta advertencia"
 
 #: Theme.java:52
 msgid ""
